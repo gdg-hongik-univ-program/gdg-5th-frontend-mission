@@ -179,29 +179,29 @@ html문서에서 단 하나만 존재.
 
 ### input
 
-button 버튼 생성
-checkbox checkbox 생성
-color 컬러 선택 생성
-date date control (년월일) 생성
-datetime date & time control (년월일시분초) 생성. HTML spec에서 drop되었다.
-datetime-local 지역 date & time control (년월일시분초) 생성
-email 이메일 입력 form 생성. subumit 시 자동 검증한다.
-file 파일 선택 form 생성
-hidden 감추어진 입력 form 생성
-image 이미지로 된 submit button 생성
-month 월 선택 form 생성
-number 숫자 입력 form 생성
-password password 입력 form 생성
-radio radio button 생성
-range 범위 선택 form 생성
-reset 초기화 button 생성
-search 검색어 입력 form 생성
-submit 제출 button 생성
-tel 전화번호 입력 form 생성
-text 텍스트 입력 form 생성
-time 시간 선택 form 생성
-url url 입력 form 생성
-week 주 선택 입력 form 생성
+- button 버튼 생성
+- checkbox checkbox 생성
+- color 컬러 선택 생성
+- date date control (년월일) 생성
+- datetime date & time control (년월일시분초) 생성. HTML spec에서 drop되었다.
+- datetime-local 지역 date & time control (년월일시분초) 생성
+- email 이메일 입력 form 생성. subumit 시 자동 검증한다.
+- file 파일 선택 form 생성
+- hidden 감추어진 입력 form 생성
+- image 이미지로 된 submit button 생성
+- month 월 선택 form 생성
+- number 숫자 입력 form 생성
+- password password 입력 form 생성
+- radio radio button 생성
+- range 범위 선택 form 생성
+- reset 초기화 button 생성
+- search 검색어 입력 form 생성
+- submit 제출 button 생성
+- tel 전화번호 입력 form 생성
+- text 텍스트 입력 form 생성
+- time 시간 선택 form 생성
+- url url 입력 form 생성
+- week 주 선택 입력 form 생성
 
 ### select
 
