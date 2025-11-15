@@ -11,15 +11,15 @@ function Content() {
     return (
         <div className="fixed top-[60px] w-full flex justify-center h-full">
             <div className="w-[652px]">
-                <div className="mt-[50px] flex flex-row gap-[20px] justify-center">
+                <div className="mt-[50px] flex flex-row gap-5 justify-center">
                     <input
-                        className="h-[43px] w-[484px] rounded-[8px] border border-[#8F8F8F] px-[16px] py-[12px]"
+                        className="h-[43px] w-[484px] rounded-lg border border-[#8F8F8F] px-4 py-3"
                         placeholder="상품 검색..."
                         onChange={handleInput}
                         value={content}
                     />
                     <button
-                        className="flex h-[43px] w-[148px] items-center justify-center rounded-[8px] bg-[#008CFF] px-[16px] py-[12px] text-white hover:cursor-pointer"
+                        className="flex h-[43px] w-[148px] items-center justify-center rounded-lg bg-[#008CFF] px-4 py-3 text-white hover:cursor-pointer"
                         onClick={() => console.log(content, "검색")}
                     >
                         검색

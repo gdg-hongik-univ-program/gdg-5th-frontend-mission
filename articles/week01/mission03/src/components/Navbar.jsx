@@ -1,4 +1,6 @@
+import { useState, useEffect } from 'react';
 import gdgLogoImg from '../assets/gdg_logo.svg'
+import { useNavigate } from 'react'
 
 function Navbar() {
 
@@ -25,7 +27,7 @@ function Navbar() {
                 </div>
             </div>  
             <div>
-                <button  className="rounded-[8px] border border-blue-500 p-[6px] text-[16px] text-blue-500 hover:cursor-pointer" 
+                <button  className="rounded-lg border border-blue-500 p-2 text-[16px] text-blue-500 hover:cursor-pointer" 
                 onClick={() => console.log("관리자 페이지 클릭")}>
                     관리자
                 </button>
