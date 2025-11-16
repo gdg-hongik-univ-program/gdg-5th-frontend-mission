@@ -8,10 +8,11 @@ function Content() {
         setContent(e.target.value);
         console.log(content);
     }
+
     return (
-        <div className="fixed top-[60px] w-full flex justify-center h-full">
-            <div className="w-[652px]">
-                <div className="mt-[50px] flex flex-row gap-5 justify-center">
+            <div className="top-[60px] w-full flex justify-center h-full">
+                <div className="w-[652px]">
+                    <div className="flex justify-center items-center gap-2 mb-8 py-12">
                     <input
                         className="h-[43px] w-[484px] rounded-lg border border-[#8F8F8F] px-4 py-3"
                         placeholder="상품 검색..."
