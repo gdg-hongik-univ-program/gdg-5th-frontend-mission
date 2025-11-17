@@ -9,7 +9,6 @@
   max-width: 600px;
   width: 100%;
 }
-/* ... (이하 CSS 코드는 이전 답변과 동일) ... */
 .product-info {
   flex-grow: 1;
 }

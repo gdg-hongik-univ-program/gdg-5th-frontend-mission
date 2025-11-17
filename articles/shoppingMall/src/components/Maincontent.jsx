@@ -1,6 +1,6 @@
 import React from "react";
 import ProductItem from "./ProductItem.jsx";
-import CategoryFilter from "./CategoryFilter.jsx"; // 1. 새로 만든 컴포넌트 import
+import CategoryFilter from "./CategoryFilter.jsx";
 import "./Maincontent.css";
 
 const Maincontent = () => {

@@ -1,7 +1,6 @@
-/* "정렬 기준 선택" 컴포넌트의 스타일 */
 .sort-filter {
-  width: 200px; /* 왼쪽 영역 너비 */
-  margin-right: 32px; /* 오른쪽 상품 목록과의 여백 */
+  width: 200px;
+  margin-right: 32px;
 }
 
 .filter-title-button {

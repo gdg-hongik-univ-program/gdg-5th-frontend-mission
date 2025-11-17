@@ -1,13 +1,13 @@
 .price-range-filter {
-  display: flex; /* 가로로 배치 */
+  display: flex;
   justify-content: center;
   align-items: center;
-  gap: 8px; /* 아이템 사이 간격 */
-  margin-bottom: 32px; /* 아래 '내 구매 내역'과의 간격 */
+  gap: 8px;
+  margin-bottom: 32px;
 }
 
 .price-input {
-  width: 200px; /* 입력창 너비 */
+  width: 200px;
   padding: 12px;
   font-size: 16px;
   text-align: right;
