@@ -1,0 +1,37 @@
+import React, { useState } from "react";
+import Header from "./components/Header.jsx";
+import "./App.css";
+
+import Maincontent from "./components/Maincontent.jsx";
+import PriceRangePage from "./components/PriceRangePage.jsx";
+import ProductSortPage from "./components/ProductSortPage.jsx";
+
+const App = () => {
+  const [currentPage, setCurrentPage] = useState("category");
+
+  const handleNavClick = (pageKey) => {
+    setCurrentPage(pageKey);
+  };
+
+  const renderPage = () => {
+    if (currentPage === "category") {
+      return <Maincontent />;
+    }
+    if (currentPage === "price") {
+      return <PriceRangePage />;
+    }
+    if (currentPage === "sort") {
+      return <ProductSortPage />;
+    }
+    return <Maincontent />;
+  };
+
+  return (
+    <div className="app-container">
+      <Header onNavClick={handleNavClick} />
+      {renderPage()}
+    </div>
+  );
+};
+
+export default App;
