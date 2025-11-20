@@ -1,23 +1,19 @@
-import { useState } from 'react'
-import './App.css'
+import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Navbar from './components/Navbar'
-import Footer from './components/Footer'
-import Content from './components/Content'
-
+import Home from "./pages/Home";
+import Cart from "./pages/Cart";
 
 function App() {
 
   return (
-    <><div>
-    <BrowserRouter>
-      <Navbar />
-      <Content />
-      <Footer />
-    </BrowserRouter>
-    </div>
+    <>
+      <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Cart />} />
+          </Routes>
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
 export default App;
